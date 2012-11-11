@@ -1,0 +1,7 @@
+"Rule: ocaml: cmx & o -> cmxs (%=lib/statsd )": "õ¨ÿöKûæ²9×bb7Ép0"
+"Rule: ocaml dependencies ml (%=lib/statsd )": "¨Ò6WĞ\003¼Q\022æ½\149\nîjR"
+"Rule: ocaml: ml -> cmo & cmi (%=lib/statsd )": "\014Ä&\140Io\014Ûie»:Bª\153\005"
+"Rule: ocaml: cmx & o -> cmxa & a (%=lib/statsd )": "\156\146¸\026ãğï±ú\129è×ßÛ)m"
+"Rule: ocaml: cmo* -> cma (%=lib/statsd )": "»çÆ\007Äªı\158XZë)'\129s¶"
+"Resource: /Users/rob/Development/ocaml-statsd/lib/statsd.ml": "éÕ°ìÛz\019G\154\142cB\027¼\007Ä"
+"Rule: ocaml: ml & cmi -> cmx & o (%=lib/statsd )": "åØŞÿ´ßuÖÉÜV&ãXB\142"

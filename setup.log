@@ -1,0 +1,8 @@
+"is_built_lib_statsd" "true"
+"built_lib_statsd" "/Users/rob/Development/ocaml-statsd/_build/lib/statsd.cma"
+"built_lib_statsd" "/Users/rob/Development/ocaml-statsd/_build/lib/statsd.cmxa"
+"built_lib_statsd" "/Users/rob/Development/ocaml-statsd/_build/lib/statsd.a"
+"built_lib_statsd" "/Users/rob/Development/ocaml-statsd/_build/lib/statsd.cmxs"
+"built_lib_statsd" "/Users/rob/Development/ocaml-statsd/_build/lib/statsd.cmi"
+"built_lib_statsd" "/Users/rob/Development/ocaml-statsd/_build/lib/statsd.cmx"
+"install-findlib" "statsd"

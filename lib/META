@@ -1,0 +1,12 @@
+# OASIS_START
+# DO NOT EDIT (digest: 3b643906663bb0c036f77550d04358be)
+version = "0.0.1"
+description = "Send metrics to a statsd server"
+requires = "unix str"
+archive(byte) = "statsd.cma"
+archive(byte, plugin) = "statsd.cma"
+archive(native) = "statsd.cmxa"
+archive(native, plugin) = "statsd.cmxs"
+exists_if = "statsd.cma"
+# OASIS_STOP
+

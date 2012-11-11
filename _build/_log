@@ -1,0 +1,14 @@
+### Starting build.
+# Target: lib/statsd.ml.depends, tags: { debug, extension:ml, file:lib/statsd.ml, ocaml, ocamldep, pkg_str, pkg_unix, quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules lib/statsd.ml > lib/statsd.ml.depends
+# Target: lib/statsd.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:lib/statsd.cmo, file:lib/statsd.ml, implem, ocaml, pkg_str, pkg_unix, quiet, traverse }
+ocamlfind ocamlc -c -g -package unix -package str -I lib -o lib/statsd.cmo lib/statsd.ml
+# Target: lib/statsd.cma, tags: { byte, debug, dont_link_with, extension:cma, file:lib/statsd.cma, library, link, ocaml, quiet, traverse }
+ocamlfind ocamlc -a lib/statsd.cmo -o lib/statsd.cma
+# Target: lib/statsd.cmx, tags: { compile, debug, extension:cmx, extension:ml, file:lib/statsd.cmx, file:lib/statsd.ml, implem, native, ocaml, pkg_str, pkg_unix, quiet, traverse }
+ocamlfind ocamlopt -c -g -package unix -package str -I lib -o lib/statsd.cmx lib/statsd.ml
+# Target: lib/statsd.cmxa, tags: { debug, dont_link_with, extension:cmxa, file:lib/statsd.cmxa, library, link, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -a lib/statsd.cmx -o lib/statsd.cmxa
+# Target: lib/statsd.cmxs, tags: { debug, extension:cmxs, file:lib/statsd.cmxs, library, link, native, ocaml, quiet, shared, traverse, use_statsd }
+ocamlfind ocamlopt -shared lib/statsd.cmx -o lib/statsd.cmxs
+# Compilation successful.

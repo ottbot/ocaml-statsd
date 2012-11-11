@@ -1,0 +1,13 @@
+OASISFormat: 0.3
+Name:        Statsd
+Version:     0.0.1
+Synopsis:    Send metrics to a statsd server
+Authors:     Robert Crim
+License:     MIT
+Plugins:     META (0.3)
+
+Library "statsd"
+  Path:       lib/
+  BuildTools: ocamlbuild
+  Modules:    Statsd
+  BuildDepends: unix, str
